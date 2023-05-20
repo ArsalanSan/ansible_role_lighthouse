@@ -1,0 +1,15 @@
+galaxy_info:
+  author: Arsalan Sanzhizhapov
+  description: Install Lighthouse
+  company: Netology (DevOps-24)
+
+  license: license (GPL-2.0-or-later, MIT, etc)
+  
+    MIT
+
+  min_ansible_version: 2.14
+
+  platforms:
+  - name: Centos
+    versions:
+    - 7

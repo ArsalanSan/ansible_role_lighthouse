@@ -1,0 +1,10 @@
+---
+- name: NGINX | Install
+  include_tasks: nginx.yml
+  tags:
+    - nginx_install
+- name: Lighthouse | Install
+  include_tasks: lighthouse.yml
+  tags:
+    - lighthouse_install
+
