@@ -1,4 +1,9 @@
 ---
+- name: Lighthouse | Install git
+  become: true
+  ansible.builtin.yum:
+    name: git
+    state: present
 - name: Lighthouse | Copy from git
   become: true
   ansible.builtin.git:
